@@ -1,0 +1,159 @@
+body {
+    font-family: 'Overpass', sans-serif;
+    font-weight: normal;
+    font-size: 100%;
+    color: rgb(38, 186, 165); /* Color principal de texto */
+    margin: 0;
+    background-color: rgb(55, 95, 122); /* Color de fondo principal */
+}
+
+#contenedor {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    min-width: 100vw;
+    min-height: 100vh;
+    width: 100%;
+    height: 100%;
+}
+
+#central {
+    max-width: 320px;
+    width: 100%;
+}
+
+.titulo {
+    font-size: 250%;
+    color: #ffffff; /* Blanco para destacar la cabecera */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#login {
+    width: 100%;
+    padding: 50px 30px;
+    background-color: rgb(38, 186, 165); /* Fondo del login con color primario */
+    -webkit-box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.15);
+    -moz-box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.15);
+    box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.15);
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+#login input {
+    font-family: 'Overpass', sans-serif;
+    font-size: 110%;
+    color: rgb(55, 95, 122); /* Color del texto del input */
+    display: block;
+    width: 100%;
+    height: 40px;
+    margin-bottom: 10px;
+    padding: 5px 5px 5px 10px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 3px;
+    background-color: #ffffff; /* Fondo blanco para los inputs */
+}
+
+#login input::placeholder {
+    font-family: 'Overpass', sans-serif;
+    color: #E4E4E4;
+}
+
+#login button {
+    font-family: 'Overpass', sans-serif;
+    font-size: 110%;
+    color: #ffffff; /* Texto blanco */
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: 3px;
+    background-color: rgb(55, 95, 122); /* Botón con el color secundario */
+    margin-top: 10px;
+}
+
+#login button:hover {
+    background-color: rgb(21, 57, 81); /* Cambio de color al hacer hover */
+    color: #ffffff;
+}
+
+.pie-form {
+    font-size: 90%;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.pie-form a {
+    display: block;
+    text-decoration: none;
+    color: #ffffff;
+    margin-bottom: 3px;
+}
+
+.pie-form a:hover {
+    color: rgb(55, 95, 122); /* Hover con color secundario */
+}
+
+.inferior {
+    margin-top: 10px;
+    font-size: 90%;
+    text-align: center;
+}
+
+.inferior a {
+    display: block;
+    text-decoration: none;
+    color: #ffffff;
+    margin-bottom: 3px;
+}
+
+.inferior a:hover {
+    color: rgb(38, 186, 165); /* Hover con el color primario */
+}
+
+
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%select%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
+/* Estilo general para el select */
+.custom-select {
+    width: 100%; /* Ancho completo */
+    padding: 10px; /* Espacio interno */
+    border: 2px solid #00bcd4; /* Borde */
+    margin-bottom: 7px;
+    border-radius: 5px; /* Bordes redondeados */
+    background-color: #f9f9f9; /* Color de fondo */
+    font-size: 16px; /* Tamaño de fuente */
+    color: #444; /* Color del texto */
+    appearance: none; /* Elimina el estilo por defecto del navegador */
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 10 10"><polygon points="0,0 10,0 5,5" fill="%2300bcd4"/></svg>'); /* Flecha personalizada */
+    background-repeat: no-repeat; /* No repetir la imagen de fondo */
+    background-position: right 10px center; /* Posición de la flecha */
+    background-size: 10px; /* Tamaño de la flecha */
+    transition: border-color 0.3s; /* Transición suave para el borde */
+}
+
+/* Cambiar color del borde al enfocar */
+.custom-select:focus {
+    border-color: #00796b; /* Color al enfocar */
+    outline: none; /* Sin contorno */
+}
+
+/* Opciones dentro del select */
+.custom-select option {
+    padding: 10px; /* Espacio interno en las opciones */
+    background-color: white; /* Color de fondo de las opciones */
+    color: #444; /* Color del texto de las opciones */
+}
+
+/* Cambiar el color de fondo de las opciones al pasar el ratón */
+.custom-select option:hover {
+    background-color: #e0f7fa; /* Color al pasar el ratón */
+}
+
+/* Media queries para responsividad */
+@media (max-width: 600px) {
+    .custom-select {
+        font-size: 14px; /* Tamaño de fuente más pequeño en pantallas pequeñas */
+    }
+}
