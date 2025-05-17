@@ -1,0 +1,98 @@
+  /* Reset para evitar conflictos */
+        .sm-icons-container * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        /* Contenedor principal */
+        .sm-icons-container {
+            display: flex;
+            justify-content: center;
+            gap: 14px;
+            padding: 12px 20px;
+            background: #f8f9fa;
+            border-radius: 50px;
+            width: fit-content;
+            margin: 0 auto;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+        }
+        
+        /* Botones de redes sociales */
+        .sm-icon-btn {
+            width: 38px;
+            height: 38px;
+            border-radius: 50%;
+            display: grid;
+            place-items: center;
+            transition: all 0.25s ease;
+            position: relative;
+            text-decoration: none;
+        }
+        
+        .sm-icon-btn:hover {
+            transform: scale(1.12);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+        }
+        
+        /* Colores específicos para cada red */
+        .sm-tiktok { background: #000000; }
+        .sm-facebook { background: #1877F2; }
+        .sm-whatsapp { background: #25D366; }
+        .sm-youtube { background: #FF0000; }
+        
+        /* Iconos - centrado perfecto */
+        .sm-icon {
+            color: white;
+            font-size: 18px;
+            display: block;
+            text-align: center;
+            line-height: 1;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        /* Tooltips */
+        .sm-tooltip {
+            visibility: hidden;
+            width: max-content;
+            max-width: 150px;
+            background-color: #2d3748;
+            color: #fff;
+            text-align: center;
+            border-radius: 6px;
+            padding: 7px 12px;
+            position: absolute;
+            z-index: 1000;
+            bottom: 145%;
+            left: 50%;
+            transform: translateX(-50%);
+            opacity: 0;
+            transition: opacity 0.3s;
+            font-size: 13px;
+            font-family: 'Segoe UI', system-ui, sans-serif;
+            font-weight: 500;
+            pointer-events: none;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+        }
+        
+        /* Flecha del tooltip */
+        .sm-tooltip::after {
+            content: "";
+            position: absolute;
+            top: 100%;
+            left: 50%;
+            margin-left: -6px;
+            border-width: 6px;
+            border-style: solid;
+            border-color: #2d3748 transparent transparent transparent;
+        }
+        
+        /* Mostrar tooltip al hover */
+        .sm-icon-btn:hover .sm-tooltip {
+            visibility: visible;
+            opacity: 1;
+        }

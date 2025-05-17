@@ -64,48 +64,48 @@ function enviarWhatsapp(telefono, materia,notaPrimerTrimestre ,puntosFaltantes) 
         } 
         // Mensajes para 1-20 puntos faltantes
         else if (puntosFaltantes == 1) {
-            mensaje = "¡Estás a solo *1* punto de aprobar %0A*" + materia + "*!%0ACon solo *0.5* pts en cada trimestre restante%0A¡Tienes esto en el bolsillo! 🎯";
+            mensaje = "📊 *Resumen de puntos:*%0A- Total faltante: *1* punto%0A- 2do Trimestre: *0.5* pts%0A- 3er Trimestre: *0.5* pts%0A%0A¡Estás a solo *1* punto de aprobar *" + materia + "*! ¡Tú puedes lograrlo sin problemas! 💪";
         } else if (puntosFaltantes == 2) {
-            mensaje = "¡Respira tranquilo! En %0A*" + materia + "*%0A solo faltan *2* puntos.%0A¡Solo necesitas *1* pt por trimestre!%0A¡Es tu victoria más fácil! ✌️";
+            mensaje = "📊 *Resumen de puntos:*%0A- Total faltante: *2* puntos%0A- 2do Trimestre: *1* pt%0A- 3er Trimestre: *1* pt%0A%0A¡Solo necesitas *1* punto por trimestre en *" + materia + "*! ¡Es tu victoria más fácil! 😊";
         } else if (puntosFaltantes == 3) {
-            mensaje = "¡3 puntos son solo detalles! En %0A*" + materia + "*%0A necesitas *1.5* pts por trimestre.%0A¡Hasta un trabajo mínimo te llevará al éxito! 💫";
+            mensaje = "📊 *Resumen de puntos:*%0A- Total faltante: *3* puntos%0A- 2do Trimestre: *1.5* pts%0A- 3er Trimestre: *1.5* pts%0A%0A¡En *" + materia + "* solo necesitas *1.5* pts por trimestre! ¡Hasta los trabajos más simples te darán esto! ✨";
         } else if (puntosFaltantes == 4) {
-            mensaje = "¡4 puntos = ¡Solo 2 por periodo!%0AEn *" + materia + "*%0Aestás a un paso.%0A¡Hasta la tarea básica suma lo que necesitas! 📚";
+            mensaje = "📊 *Resumen de puntos:*%0A- Total faltante: *4* puntos%0A- 2do Trimestre: *2* pts%0A- 3er Trimestre: *2* pts%0A%0A¡En *" + materia + "* solo *2* pts por trimestre! ¡Estás a un paso de lograrlo! 🚶‍♂️";
         } else if (puntosFaltantes == 5) {
-            mensaje = "¡Redondea tu esfuerzo! En %0A*" + materia + "*%0A faltan *5* pts.%0A(*2.5* por trimestre)%0A¡Un pequeño extra y listo! ✅";
+            mensaje = "📊 *Resumen de puntos:*%0A- Total faltante: *5* puntos%0A- 2do Trimestre: *2.5* pts%0A- 3er Trimestre: *2.5* pts%0A%0A¡En *" + materia + "* necesitas solo *2.5* pts por trimestre! ¡Un pequeño esfuerzo extra y lo lograrás! 💯";
         } else if (puntosFaltantes == 6) {
-            mensaje = "¡6 puntos = ¡3 por etapa!%0AEn *" + materia + "*%0Aes menos que una nota de participación.%0A¡Esto ya está resuelto! 😎";
+            mensaje = "📊 *Resumen de puntos:*%0A- Total faltante: *6* puntos%0A- 2do Trimestre: *3* pts%0A- 3er Trimestre: *3* pts%0A%0A¡En *" + materia + "* solo *3* pts por trimestre! ¡Menos que una nota de participación! 😎";
         } else if (puntosFaltantes == 7) {
-            mensaje = "¡7 puntos son tu colchón de seguridad!%0AEn *" + materia + "*%0A(*3.5* pts/trimestre)%0A¡Hasta puedes permitirte algún error! 🔄";
+            mensaje = "📊 *Resumen de puntos:*%0A- Total faltante: *7* puntos%0A- 2do Trimestre: *3.5* pts%0A- 3er Trimestre: *3.5* pts%0A%0A¡En *" + materia + "* necesitas *3.5* pts por trimestre! ¡Hasta puedes permitirte algún error! 🔄";
         } else if (puntosFaltantes == 8) {
-            mensaje = "¡8 puntos = ¡Solo 4 por periodo!%0AEn *" + materia + "*%0A¡Es menos del 5% del total!%0A¡Un esfuerzo mínimo te llevará allí! 📊";
+            mensaje = "📊 *Resumen de puntos:*%0A- Total faltante: *8* puntos%0A- 2do Trimestre: *4* pts%0A- 3er Trimestre: *4* pts%0A%0A¡En *" + materia + "* solo *4* pts por trimestre! ¡Es menos del 5% del total! 📈";
         } else if (puntosFaltantes == 9) {
-            mensaje = "¡9 puntos son tu margen de victoria!%0AEn *" + materia + "*%0A(*4.5* pts/trimestre)%0A¡Hasta los trabajos opcionales suman esto! ✨";
+            mensaje = "📊 *Resumen de puntos:*%0A- Total faltante: *9* puntos%0A- 2do Trimestre: *4.5* pts%0A- 3er Trimestre: *4.5* pts%0A%0A¡En *" + materia + "* necesitas *4.5* pts por trimestre! ¡Los trabajos opcionales pueden darte esto! ✏️";
         } else if (puntosFaltantes == 10) {
-            mensaje = "¡10 puntos = ¡5 por etapa!%0AEn *" + materia + "*%0A¡Es lo que ganas por asistir regularmente!%0A¡Ya tienes esto garantizado! 🏆";
+            mensaje = "📊 *Resumen de puntos:*%0A- Total faltante: *10* puntos%0A- 2do Trimestre: *5* pts%0A- 3er Trimestre: *5* pts%0A%0A¡En *" + materia + "* solo *5* pts por trimestre! ¡Lo ganas por asistir regularmente! 🏫";
         } else if (puntosFaltantes == 11) {
-            mensaje = "¡11 puntos son tu seguro académico!%0AEn *" + materia + "*%0A(*5.5* pts/trimestre)%0A¡Menos que una sola tarea bien hecha! 📝";
+            mensaje = "📊 *Resumen de puntos:*%0A- Total faltante: *11* puntos%0A- 2do Trimestre: *5.5* pts%0A- 3er Trimestre: *5.5* pts%0A%0A¡En *" + materia + "* necesitas *5.5* pts por trimestre! ¡Menos que una tarea bien hecha! 📚";
         } else if (puntosFaltantes == 12) {
-            mensaje = "¡12 puntos = ¡Solo 6 por periodo!%0AEn *" + materia + "*%0A¡Es tu boleto garantizado al aprobado!%0A¡Relájate y sigue así! 😌";
+            mensaje = "📊 *Resumen de puntos:*%0A- Total faltante: *12* puntos%0A- 2do Trimestre: *6* pts%0A- 3er Trimestre: *6* pts%0A%0A¡En *" + materia + "* solo *6* pts por trimestre! ¡Tu aprobado está casi garantizado! ✅";
         } else if (puntosFaltantes == 13) {
-            mensaje = "¡13 puntos de tranquilidad!%0AEn *" + materia + "*%0A(*6.5* pts/trimestre)%0A¡Hasta el proyecto más simple cubre esto! 🛠️";
+            mensaje = "📊 *Resumen de puntos:*%0A- Total faltante: *13* puntos%0A- 2do Trimestre: *6.5* pts%0A- 3er Trimestre: *6.5* pts%0A%0A¡En *" + materia + "* necesitas *6.5* pts por trimestre! ¡Hasta el proyecto más simple te da esto! 🛠️";
         } else if (puntosFaltantes == 14) {
-            mensaje = "¡14 puntos = ¡7 por etapa!%0AEn *" + materia + "*%0A¡Menos que una sola evaluación decente!%0A¡Ya estás del otro lado! 🌈";
+            mensaje = "📊 *Resumen de puntos:*%0A- Total faltante: *14* puntos%0A- 2do Trimestre: *7* pts%0A- 3er Trimestre: *7* pts%0A%0A¡En *" + materia + "* solo *7* pts por trimestre! ¡Menos que una buena evaluación! ✨";
         } else if (puntosFaltantes == 15) {
-            mensaje = "¡15 puntos son tu zona segura!%0AEn *" + materia + "*%0A(*7.5* pts/trimestre)%0A¡Es lo que ganas por participar activamente! 🗣️";
+            mensaje = "📊 *Resumen de puntos:*%0A- Total faltante: *15* puntos%0A- 2do Trimestre: *7.5* pts%0A- 3er Trimestre: *7.5* pts%0A%0A¡En *" + materia + "* necesitas *7.5* pts por trimestre! ¡Lo consigues participando activamente! 🗣️";
         } else if (puntosFaltantes == 16) {
-            mensaje = "¡16 puntos = ¡Solo 8 por periodo!%0AEn *" + materia + "*%0A¡Una sola actividad especial te da esto!%0A¡Camino seguro al éxito! 🛣️";
+            mensaje = "📊 *Resumen de puntos:*%0A- Total faltante: *16* puntos%0A- 2do Trimestre: *8* pts%0A- 3er Trimestre: *8* pts%0A%0A¡En *" + materia + "* solo *8* pts por trimestre! ¡Una actividad especial te da esto! 🎯";
         } else if (puntosFaltantes == 17) {
-            mensaje = "¡17 puntos de ventaja!%0AEn *" + materia + "*%0A(*8.5* pts/trimestre)%0A¡Cualquier esfuerzo adicional te sobrará! 🚀";
+            mensaje = "📊 *Resumen de puntos:*%0A- Total faltante: *17* puntos%0A- 2do Trimestre: *8.5* pts%0A- 3er Trimestre: *8.5* pts%0A%0A¡En *" + materia + "* necesitas *8.5* pts por trimestre! ¡Cualquier esfuerzo extra te sobrará! 🚀";
         } else if (puntosFaltantes == 18) {
-            mensaje = "¡18 puntos = ¡9 por etapa!%0AEn *" + materia + "*%0A¡Es menos del 10% del total!%0A¡Tu aprobado está casi asegurado! 🔒";
+            mensaje = "📊 *Resumen de puntos:*%0A- Total faltante: *18* puntos%0A- 2do Trimestre: *9* pts%0A- 3er Trimestre: *9* pts%0A%0A¡En *" + materia + "* solo *9* pts por trimestre! ¡Es menos del 10% del total! 🔢";
         } else if (puntosFaltantes == 19) {
-            mensaje = "¡19 puntos son tu colchón!%0AEn *" + materia + "*%0A(*9.5* pts/trimestre)%0A¡Solo necesitas mantener el ritmo actual! 🎵";
+            mensaje = "📊 *Resumen de puntos:*%0A- Total faltante: *19* puntos%0A- 2do Trimestre: *9.5* pts%0A- 3er Trimestre: *9.5* pts%0A%0A¡En *" + materia + "* necesitas *9.5* pts por trimestre! ¡Mantén tu ritmo y lo lograrás! ⏱️";
         } else if (puntosFaltantes == 20) {
-            mensaje = "¡20 puntos = ¡Solo 10 por periodo!%0AEn *" + materia + "*%0A¡Es lo que sacas por entregar todo a tiempo!%0A¡Felicidades por tu organización! ⏰";
+            mensaje = "📊 *Resumen de puntos:*%0A- Total faltante: *20* puntos%0A- 2do Trimestre: *10* pts%0A- 3er Trimestre: *10* pts%0A%0A¡En *" + materia + "* solo *10* pts por trimestre! ¡Lo consigues entregando todo a tiempo! ⏰";
         }
-
-            else if (puntosFaltantes == 21) {
+        
+        else if (puntosFaltantes == 21) {
             mensaje = "¡Tú puedes cerrar esta brecha! En: %0A*" + materia + "*%0A solo te faltan %0A*21* puntos.%0ADistribución ideal:%0A- 2do Trimestre: *10.5* pts%0A- 3er Trimestre: *10.5* pts%0A¡Son metas perfectamente alcanzables! 💪";
         } else if (puntosFaltantes == 22) {
             mensaje = "¡Estás más cerca de lo que crees! En: %0A*" + materia + "*%0A faltan solo %0A*22* puntos.%0APara aprobar:%0A- 11 pts en cada trimestre%0A¡Un pequeño esfuerzo sostenido te llevará allí! ✨";
@@ -147,216 +147,250 @@ function enviarWhatsapp(telefono, materia,notaPrimerTrimestre ,puntosFaltantes) 
             mensaje = "¡40 puntos = ¡Solo 20 por periodo! En: %0A*" + materia + "*%0A faltan %0A*40* puntos.%0A¡Números redondos para tu éxito!%0A- 20 pts en cada trimestre%0A¡Tú tienes el control total! 🎮";
         }
 
-            
-            else if (puntosFaltantes == 41) {
-            mensaje = "¡No es tarde! En: %0A*" + materia + "*%0A te faltan %0A*41* puntos para aprobar.%0APara lograrlo necesitas:%0A- 2do Trimestre: *20.5* pts%0A- 3er Trimestre: *20.5* pts%0A¡Tú puedes superar este reto!";
+        else if (puntosFaltantes == 41) {
+            mensaje = "📊 *Puntos necesarios:*%0A- Total faltante: *41* pts%0A- 2do Trimestre: *20.5* pts%0A- 3er Trimestre: *20.5* pts%0A%0A¡No es tarde para *" + materia + "*! Con esfuerzo constante puedes lograr esos *20.5* pts por trimestre. ¡Tú puedes! 💪";
         } else if (puntosFaltantes == 42) {
-            mensaje = "¡Da el primer paso! En: %0A*" + materia + "*%0A te faltan %0A*42* puntos.%0AMeta por trimestre:%0A- 2do: *21* pts%0A- 3ro: *21* pts%0A¡Cada esfuerzo cuenta!";
+            mensaje = "📊 *Puntos necesarios:*%0A- Total faltante: *42* pts%0A- 2do Trimestre: *21* pts%0A- 3er Trimestre: *21* pts%0A%0A¡Da el primer paso en *" + materia + "*! *21* pts por trimestre son alcanzables con dedicación. ¡Cada esfuerzo cuenta! ✨";
         } else if (puntosFaltantes == 43) {
-            mensaje = "¡Sigue tu camino! En: %0A*" + materia + "*%0A te faltan %0A*43* puntos.%0ADistribución ideal:%0A- 2do Trim: *21.5* pts%0A- 3er Trim: *21.5* pts%0A¡Persiste y lo lograrás!";
+            mensaje = "📊 *Puntos necesarios:*%0A- Total faltante: *43* pts%0A- 2do Trimestre: *21.5* pts%0A- 3er Trimestre: *21.5* pts%0A%0A¡Sigue tu camino en *" + materia + "*! Esos *21.5* pts por trimestre están a tu alcance si persistes. ¡No desistas! 🌟";
         } else if (puntosFaltantes == 44) {
-            mensaje = "¡Con esfuerzo todo se puede! En: %0A*" + materia + "*%0A te faltan %0A*44* puntos.%0APara aprobar necesitas:%0A- 22 pts en cada trimestre%0A¡Supera tus límites!";
+            mensaje = "📊 *Puntos necesarios:*%0A- Total faltante: *44* pts%0A- 2do Trimestre: *22* pts%0A- 3er Trimestre: *22* pts%0A%0A¡Con esfuerzo todo se puede en *" + materia + "*! *22* pts por trimestre son tu meta. ¡Supera tus límites! 🚀";
         } else if (puntosFaltantes == 45) {
-            console.log("Entre al if del  45");
-            mensaje = "¡Es momento de actuar! En: %0A*" + materia + "*%0A te faltan %0A*45* puntos.%0AMeta mínima:%0A- 2do Trim: *22.5* pts%0A- 3ro Trim: *22.5* pts%0A¡Demuestra de qué estás hecho!";
+            mensaje = "📊 *Puntos necesarios:*%0A- Total faltante: *45* pts%0A- 2do Trimestre: *22.5* pts%0A- 3er Trimestre: *22.5* pts%0A%0A¡Es momento de actuar en *" + materia + "*! Con *22.5* pts por trimestre lo lograrás. ¡Demuestra tu potencial! 💯";
         } else if (puntosFaltantes == 46) {
-            mensaje = "¡Nunca te rindas! En: %0A*" + materia + "*%0A te faltan %0A*46* puntos.%0APuntos necesarios:%0A- 23 en cada trimestre%0A¡Tu futuro lo vale!";
+            mensaje = "📊 *Puntos necesarios:*%0A- Total faltante: *46* pts%0A- 2do Trimestre: *23* pts%0A- 3er Trimestre: *23* pts%0A%0A¡Nunca te rindas en *" + materia + "*! *23* pts por trimestre valen tu futuro. ¡Tú lo vales! 🌈";
         } else if (puntosFaltantes == 47) {
-            mensaje = "¡Avanza sin miedo! En: %0A*" + materia + "*%0A te faltan %0A*47* puntos.%0ADebes obtener:%0A- 2do Trim: *23.5* pts%0A- 3ro Trim: *23.5* pts%0A¡Eres más fuerte que cualquier obstáculo!";
+            mensaje = "📊 *Puntos necesarios:*%0A- Total faltante: *47* pts%0A- 2do Trimestre: *23.5* pts%0A- 3er Trimestre: *23.5* pts%0A%0A¡Avanza sin miedo en *" + materia + "*! Esos *23.5* pts por trimestre son posibles. ¡Eres más fuerte que los obstáculos! 💪";
         } else if (puntosFaltantes == 48) {
-            mensaje = "¡Sigue adelante! En: %0A*" + materia + "*%0A te faltan %0A*48* puntos.%0AMeta por periodo:%0A- 24 pts en cada trimestre%0A¡El éxito está en tu constancia!";
+            mensaje = "📊 *Puntos necesarios:*%0A- Total faltante: *48* pts%0A- 2do Trimestre: *24* pts%0A- 3er Trimestre: *24* pts%0A%0A¡Sigue adelante con *" + materia + "*! *24* pts por trimestre se logran con constancia. ¡El éxito está en no detenerte! 🏃‍♂️";
         } else if (puntosFaltantes == 49) {
-            mensaje = "¡No estás solo! En: %0A*" + materia + "*%0A te faltan %0A*49* puntos.%0ANecesitas:%0A- 2do Trim: *24.5* pts%0A- 3ro Trim: *24.5* pts%0A¡Pide ayuda si lo necesitas!";
+            mensaje = "📊 *Puntos necesarios:*%0A- Total faltante: *49* pts%0A- 2do Trimestre: *24.5* pts%0A- 3er Trimestre: *24.5* pts%0A%0A¡No estás solo en *" + materia + "*! Busca ayuda para esos *24.5* pts por trimestre. ¡Juntos es más fácil! 👥";
         } else if (puntosFaltantes == 50) {
-            mensaje = "¡Es posible mejorar! En: %0A*" + materia + "*%0A te faltan %0A*50* puntos.%0ADistribución:%0A- 25 pts por trimestre%0A¡Este es tu momento para brillar!";
+            mensaje = "📊 *Puntos necesarios:*%0A- Total faltante: *50* pts%0A- 2do Trimestre: *25* pts%0A- 3er Trimestre: *25* pts%0A%0A¡Es posible mejorar en *" + materia + "*! *25* pts por trimestre son tu objetivo. ¡Este es tu momento para brillar! ✨";
         } else if (puntosFaltantes == 51) {
-            mensaje = "¡No pierdas tiempo! En: %0A*" + materia + "*%0A te faltan %0A*51* puntos.%0APara lograrlo:%0A- 2do Trim: *25.5* pts%0A- 3ro Trim: *25.5* pts%0A¡Organízate y verás los resultados!";
+            mensaje = "📊 *Puntos necesarios:*%0A- Total faltante: *51* pts%0A- 2do Trimestre: *25.5* pts%0A- 3er Trimestre: *25.5* pts%0A%0A¡No pierdas tiempo con *" + materia + "*! Organízate para lograr *25.5* pts por trimestre. ¡Los resultados llegarán! 📅";
         } else if (puntosFaltantes == 52) {
-            mensaje = "¡Haz que valga! En: %0A*" + materia + "*%0A te faltan %0A*52* puntos.%0AMeta mínima:%0A- 26 pts cada trimestre%0A¡Cada punto cuenta, esfuerzate un poco más!";
+            mensaje = "📊 *Puntos necesarios:*%0A- Total faltante: *52* pts%0A- 2do Trimestre: *26* pts%0A- 3er Trimestre: *26* pts%0A%0A¡Haz que valga el esfuerzo en *" + materia + "*! *26* pts por trimestre son alcanzables. ¡Cada punto cuenta! 🔢";
         } else if (puntosFaltantes == 53) {
-            mensaje = "¡Todo gran logro requiere esfuerzo! En: %0A*" + materia + "*%0A te faltan %0A*53* puntos.%0ADebes obtener:%0A- 2do Trim: *26.5* pts%0A- 3ro Trim: *26.5* pts%0A¡Vale la pena el sacrificio!";
+            mensaje = "📊 *Puntos necesarios:*%0A- Total faltante: *53* pts%0A- 2do Trimestre: *26.5* pts%0A- 3er Trimestre: *26.5* pts%0A%0A¡Todo gran logro requiere esfuerzo en *" + materia + "*! Esos *26.5* pts por trimestre valdrán la pena. ¡Persiste! 💎";
         } else if (puntosFaltantes == 54) {
-            mensaje = "¡Paso a paso se llega! En: %0A*" + materia + "*%0A te faltan %0A*54* puntos.%0ANecesitas:%0A- 27 pts por trimestre%0A¡No subestimes tu potencial!";
+            mensaje = "📊 *Puntos necesarios:*%0A- Total faltante: *54* pts%0A- 2do Trimestre: *27* pts%0A- 3er Trimestre: *27* pts%0A%0A¡Paso a paso se llega lejos en *" + materia + "*! *27* pts por trimestre son posibles. ¡No subestimes tu potencial! 🚶‍♂️";
         } else if (puntosFaltantes == 55) {
-            mensaje = "¡Tú tienes el poder! En: %0A*" + materia + "*%0A te faltan %0A*55* puntos.%0APara aprobar:%0A- 2do Trim: *27.5* pts%0A- 3ro Trim: *27.5* pts%0A¡Confía en tu capacidad!";
+            mensaje = "📊 *Puntos necesarios:*%0A- Total faltante: *55* pts%0A- 2do Trimestre: *27.5* pts%0A- 3er Trimestre: *27.5* pts%0A%0A¡Tú tienes el poder en *" + materia + "*! *27.5* pts por trimestre están a tu alcance. ¡Confía en ti! 💪";
         } else if (puntosFaltantes == 56) {
-            mensaje = "¡Enfócate y avanza! En: %0A*" + materia + "*%0A te faltan %0A*56* puntos.%0AMeta por periodo:%0A- 28 pts cada trimestre%0A¡Aún estás a tiempo de cambiar tu historia!";
+            mensaje = "📊 *Puntos necesarios:*%0A- Total faltante: *56* pts%0A- 2do Trimestre: *28* pts%0A- 3er Trimestre: *28* pts%0A%0A¡Enfócate y avanza en *" + materia + "*! *28* pts por trimestre son tu meta. ¡Aún puedes cambiar tu historia! 📖";
         } else if (puntosFaltantes == 57) {
-            mensaje = "¡Hazlo por tu futuro! En: %0A*" + materia + "*%0A te faltan %0A*57* puntos.%0ADebes lograr:%0A- 2do Trim: *28.5* pts%0A- 3ro Trim: *28.5* pts%0A¡El conocimiento es tu mejor herramienta!";
+            mensaje = "📊 *Puntos necesarios:*%0A- Total faltante: *57* pts%0A- 2do Trimestre: *28.5* pts%0A- 3er Trimestre: *28.5* pts%0A%0A¡Hazlo por tu futuro en *" + materia + "*! Esos *28.5* pts por trimestre son inversión en ti. ¡El conocimiento es poder! 🧠";
         } else if (puntosFaltantes == 58) {
-            mensaje = "¡Cada día cuenta! En: %0A*" + materia + "*%0A te faltan %0A*58* puntos.%0ANecesitas:%0A- 29 pts por trimestre%0A¡Pequeños esfuerzos llevan a grandes logros!";
+            mensaje = "📊 *Puntos necesarios:*%0A- Total faltante: *58* pts%0A- 2do Trimestre: *29* pts%0A- 3er Trimestre: *29* pts%0A%0A¡Cada día cuenta en *" + materia + "*! *29* pts por trimestre se logran con pequeños esfuerzos. ¡Sigue adelante! ⏳";
         } else if (puntosFaltantes == 59) {
-            mensaje = "¡La meta está cerca! En: %0A*" + materia + "*%0A te faltan %0A*59* puntos.%0APara lograrlo:%0A- 2do Trim: *29.5* pts%0A- 3ro Trim: *29.5* pts%0A¡Un último empujón!";
+            mensaje = "📊 *Puntos necesarios:*%0A- Total faltante: *59* pts%0A- 2do Trimestre: *29.5* pts%0A- 3er Trimestre: *29.5* pts%0A%0A¡La meta está cerca en *" + materia + "*! Solo *29.5* pts por trimestre. ¡Un último empujón y lo lograrás! 🏁";
         } else if (puntosFaltantes == 60) {
-            mensaje = "¡Todo comienza con una decisión! En: %0A*" + materia + "*%0A te faltan %0A*60* puntos.%0AMeta mínima:%0A- 30 pts cada trimestre%0A¡El cambio comienza hoy!";
+            mensaje = "📊 *Puntos necesarios:*%0A- Total faltante: *60* pts%0A- 2do Trimestre: *30* pts%0A- 3er Trimestre: *30* pts%0A%0A¡Todo comienza con una decisión en *" + materia + "*! *30* pts por trimestre son tu objetivo. ¡El cambio empieza hoy! 🌟";
         }
 
 
         else if (puntosFaltantes == 61) {
-            mensaje = "¡No dejes que los números te desanimen! En: %0A*" + materia + "*%0A te faltan %0A*61* puntos.%0ADebes obtener:%0A- 2do Trimestre: *30.5* pts%0A- 3er Trimestre: *30.5* pts%0A¡Divide y vencerás!";
+            mensaje = "📊 *Puntos necesarios:*%0A- Total faltante: *61* pts%0A- 2do Trimestre: *30.5* pts%0A- 3er Trimestre: *30.5* pts%0A%0A¡Reto aceptado en *" + materia + "*! Con organización, esos *30.5* pts por trimestre son posibles. ¡Divide y vencerás! 💪";
         } else if (puntosFaltantes == 62) {
-            mensaje = "¡No te des por vencido! En: %0A*" + materia + "*%0A te faltan %0A*62* puntos.%0AMeta por periodo:%0A- 31 pts en cada trimestre%0A¡Sigue luchando, vale la pena!";
+            mensaje = "📊 *Puntos necesarios:*%0A- Total faltante: *62* pts%0A- 2do Trimestre: *31* pts%0A- 3er Trimestre: *31* pts%0A%0A¡No te des por vencido en *" + materia + "*! *31* pts por trimestre requieren esfuerzo, pero valdrá la pena. ¡Tú puedes! ✨";
         } else if (puntosFaltantes == 63) {
-            mensaje = "¡Siempre hay una salida! En: %0A*" + materia + "*%0A te faltan %0A*63* puntos.%0APara aprobar necesitas:%0A- 2do Trim: *31.5* pts%0A- 3ro Trim: *31.5* pts%0A¡Vamos con todo!";
+            mensaje = "📊 *Puntos necesarios:*%0A- Total faltante: *63* pts%0A- 2do Trimestre: *31.5* pts%0A- 3er Trimestre: *31.5* pts%0A%0A¡Siempre hay una salida en *" + materia + "*! Esos *31.5* pts por trimestre son tu meta. ¡Vamos con todo! 🚀";
         } else if (puntosFaltantes == 64) {
-            mensaje = "¡Una meta difícil no es imposible! En: %0A*" + materia + "*%0A te faltan %0A*64* puntos.%0ADistribución ideal:%0A- 32 pts por trimestre%0A¡El esfuerzo supera al talento!";
+            mensaje = "📊 *Puntos necesarios:*%0A- Total faltante: *64* pts%0A- 2do Trimestre: *32* pts%0A- 3er Trimestre: *32* pts%0A%0A¡Una meta difícil no es imposible en *" + materia + "*! *32* pts por trimestre con dedicación. ¡El esfuerzo supera al talento! 💎";
         } else if (puntosFaltantes == 65) {
-            mensaje = "¡Transforma tus dudas en acción! En: %0A*" + materia + "*%0A te faltan %0A*65* puntos.%0AMeta mínima:%0A- 2do Trim: *32.5* pts%0A- 3ro Trim: *32.5* pts%0A¡Cada punto cuenta!";
+            mensaje = "📊 *Puntos necesarios:*%0A- Total faltante: *65* pts%0A- 2do Trimestre: *32.5* pts%0A- 3er Trimestre: *32.5* pts%0A%0A¡Transforma tus dudas en acción en *" + materia + "*! Esos *32.5* pts por trimestre son tu objetivo. ¡Cada punto cuenta! 🔢";
         } else if (puntosFaltantes == 66) {
-            mensaje = "¡Nunca es tarde para intentarlo! En: %0A*" + materia + "*%0A te faltan %0A*66* puntos.%0ANecesitas:%0A- 33 pts cada trimestre%0A¡Hoy es el mejor día para comenzar!";
+            mensaje = "📊 *Puntos necesarios:*%0A- Total faltante: *66* pts%0A- 2do Trimestre: *33* pts%0A- 3er Trimestre: *33* pts%0A%0A¡Nunca es tarde para intentarlo en *" + materia + "*! *33* pts por trimestre son alcanzables. ¡Hoy es el día para empezar! 📅";
         } else if (puntosFaltantes == 67) {
-            mensaje = "¡Levántate y comienza hoy! En: %0A*" + materia + "*%0A te faltan %0A*67* puntos.%0APara lograrlo:%0A- 2do Trim: *33.5* pts%0A- 3ro Trim: *33.5* pts%0A¡Pequeños pasos llevan a grandes logros!";
+            mensaje = "📊 *Puntos necesarios:*%0A- Total faltante: *67* pts%0A- 2do Trimestre: *33.5* pts%0A- 3er Trimestre: *33.5* pts%0A%0A¡Levántate y comienza hoy con *" + materia + "*! Esos *33.5* pts por trimestre se logran paso a paso. ¡Pequeños esfuerzos, grandes resultados! 🌱";
         } else if (puntosFaltantes == 68) {
-            mensaje = "¡El esfuerzo de hoy será el orgullo de mañana! En: %0A*" + materia + "*%0A te faltan %0A*68* puntos.%0ADebes obtener:%0A- 34 pts por trimestre%0A¡Tu futuro yo te lo agradecerá!";
+            mensaje = "📊 *Puntos necesarios:*%0A- Total faltante: *68* pts%0A- 2do Trimestre: *34* pts%0A- 3er Trimestre: *34* pts%0A%0A¡El esfuerzo de hoy será tu orgullo mañana en *" + materia + "*! *34* pts por trimestre son tu meta. ¡Tu futuro yo te lo agradecerá! ⏳";
         } else if (puntosFaltantes == 69) {
-            mensaje = "¡Actitud + trabajo = progreso! En: %0A*" + materia + "*%0A te faltan %0A*69* puntos.%0AMeta por periodo:%0A- 2do Trim: *34.5* pts%0A- 3ro Trim: *34.5* pts%0A¡La fórmula del éxito está en tus manos!";
+            mensaje = "📊 *Puntos necesarios:*%0A- Total faltante: *69* pts%0A- 2do Trimestre: *34.5* pts%0A- 3er Trimestre: *34.5* pts%0A%0A¡Actitud + trabajo = progreso en *" + materia + "*! Esos *34.5* pts por trimestre son posibles. ¡La fórmula del éxito está en tus manos! ✍️";
         } else if (puntosFaltantes == 70) {
-            mensaje = "¡Empieza con lo que tienes! En: %0A*" + materia + "*%0A te faltan %0A*70* puntos.%0APuntos necesarios:%0A- 35 en cada trimestre%0A¡No esperes condiciones perfectas!";
+            mensaje = "📊 *Puntos necesarios:*%0A- Total faltante: *70* pts%0A- 2do Trimestre: *35* pts%0A- 3er Trimestre: *35* pts%0A%0A¡Empieza con lo que tienes en *" + materia + "*! *35* pts por trimestre son tu objetivo. ¡No esperes condiciones perfectas, hazlo ahora! ⚡";
         } else if (puntosFaltantes == 71) {
-            mensaje = "¡Hazlo por ti! En: %0A*" + materia + "*%0A te faltan %0A*71* puntos.%0ADistribución:%0A- 2do Trim: *35.5* pts%0A- 3ro Trim: *35.5* pts%0A¡Cree en tu capacidad, eres más fuerte de lo que piensas!";
+            mensaje = "📊 *Puntos necesarios:*%0A- Total faltante: *71* pts%0A- 2do Trimestre: *35.5* pts%0A- 3er Trimestre: *35.5* pts%0A%0A¡Hazlo por ti en *" + materia + "*! Esos *35.5* pts por trimestre son inversión en tu futuro. ¡Eres más capaz de lo que crees! 💪";
         } else if (puntosFaltantes == 72) {
-            mensaje = "¡La motivación te hará comenzar, el hábito te hará llegar! En: %0A*" + materia + "*%0A te faltan %0A*72* puntos.%0AMeta mínima:%0A- 36 pts por trimestre%0A¡La constancia es la clave!";
+            mensaje = "📊 *Puntos necesarios:*%0A- Total faltante: *72* pts%0A- 2do Trimestre: *36* pts%0A- 3er Trimestre: *36* pts%0A%0A¡La motivación te hará comenzar en *" + materia + "*! *36* pts por trimestre requieren hábito. ¡La constancia es la clave! 🔑";
         } else if (puntosFaltantes == 73) {
-            mensaje = "¡Los límites solo existen en tu mente! En: %0A*" + materia + "*%0A te faltan %0A*73* puntos.%0APara aprobar necesitas:%0A- 2do Trim: *36.5* pts%0A- 3ro Trim: *36.5* pts%0A¡Rompe tus barreras!";
+            mensaje = "📊 *Puntos necesarios:*%0A- Total faltante: *73* pts%0A- 2do Trimestre: *36.5* pts%0A- 3er Trimestre: *36.5* pts%0A%0A¡Los límites solo están en tu mente con *" + materia + "*! Esos *36.5* pts por trimestre son posibles. ¡Rompe tus barreras! 🚧";
         } else if (puntosFaltantes == 74) {
-            mensaje = "¡Haz lo que puedas, con lo que tienes, donde estés! En: %0A*" + materia + "*%0A te faltan %0A*74* puntos.%0ADebes lograr:%0A- 37 pts cada trimestre%0A¡No subestimes tu potencial!";
+            mensaje = "📊 *Puntos necesarios:*%0A- Total faltante: *74* pts%0A- 2do Trimestre: *37* pts%0A- 3er Trimestre: *37* pts%0A%0A¡Haz lo que puedas en *" + materia + "*! *37* pts por trimestre son tu meta. ¡No subestimes tu potencial! 🌟";
         } else if (puntosFaltantes == 75) {
-            mensaje = "¡Rinde al máximo, no al mínimo! En: %0A*" + materia + "*%0A te faltan %0A*75* puntos.%0AMeta por periodo:%0A- 2do Trim: *37.5* pts%0A- 3ro Trim: *37.5* pts%0A¡Aspira a superarte cada día!";
+            mensaje = "📊 *Puntos necesarios:*%0A- Total faltante: *75* pts%0A- 2do Trimestre: *37.5* pts%0A- 3er Trimestre: *37.5* pts%0A%0A¡Rinde al máximo en *" + materia + "*! Esos *37.5* pts por trimestre requieren tu mejor versión. ¡Aspira a superarte! 🏆";
         } else if (puntosFaltantes == 76) {
-            mensaje = "¡Un paso a la vez! En: %0A*" + materia + "*%0A te faltan %0A*76* puntos.%0ANecesitas:%0A- 38 pts por trimestre%0A¡Todo cuenta cuando perseveras!";
+            mensaje = "📊 *Puntos necesarios:*%0A- Total faltante: *76* pts%0A- 2do Trimestre: *38* pts%0A- 3er Trimestre: *38* pts%0A%0A¡Un paso a la vez en *" + materia + "*! *38* pts por trimestre se logran con perseverancia. ¡Todo cuenta cuando no te rindes! 👣";
         } else if (puntosFaltantes == 77) {
-            mensaje = "¡Hoy es un buen día para cambiar tu historia! En: %0A*" + materia + "*%0A te faltan %0A*77* puntos.%0APara lograrlo:%0A- 2do Trim: *38.5* pts%0A- 3ro Trim: *38.5* pts%0A¡El cambio comienza con una decisión!";
+            mensaje = "📊 *Puntos necesarios:*%0A- Total faltante: *77* pts%0A- 2do Trimestre: *38.5* pts%0A- 3er Trimestre: *38.5* pts%0A%0A¡Hoy puedes cambiar tu historia en *" + materia + "*! Esos *38.5* pts por trimestre son posibles. ¡El cambio comienza con una decisión! ✨";
         } else if (puntosFaltantes == 78) {
-            mensaje = "¡No estás solo en este camino! En: %0A*" + materia + "*%0A te faltan %0A*78* puntos.%0ADistribución ideal:%0A- 39 pts cada trimestre%0A¡Pide ayuda y sigue adelante!";
+            mensaje = "📊 *Puntos necesarios:*%0A- Total faltante: *78* pts%0A- 2do Trimestre: *39* pts%0A- 3er Trimestre: *39* pts%0A%0A¡No estás solo en *" + materia + "*! *39* pts por trimestre son desafiantes, pero con apoyo lo lograrás. ¡Pide ayuda! 👥";
         } else if (puntosFaltantes == 79) {
-            mensaje = "¡Los grandes logros toman tiempo! En: %0A*" + materia + "*%0A te faltan %0A*79* puntos.%0AMeta mínima:%0A- 2do Trim: *39.5* pts%0A- 3ro Trim: *39.5* pts%0A¡La paciencia es tu aliada!";
+            mensaje = "📊 *Puntos necesarios:*%0A- Total faltante: *79* pts%0A- 2do Trimestre: *39.5* pts%0A- 3er Trimestre: *39.5* pts%0A%0A¡Los grandes logros toman tiempo en *" + materia + "*! Esos *39.5* pts por trimestre requieren paciencia. ¡La recompensa valdrá la pena! ⏳";
         } else if (puntosFaltantes == 80) {
-            mensaje = "¡No dejes que el miedo te detenga! En: %0A*" + materia + "*%0A te faltan %0A*80* puntos.%0APuntos necesarios:%0A- 40 en cada trimestre%0A¡Enfrenta el reto con valentía!";
+            mensaje = "📊 *Puntos necesarios:*%0A- Total faltante: *80* pts%0A- 2do Trimestre: *40* pts%0A- 3er Trimestre: *40* pts%0A%0A¡No dejes que el miedo te detenga en *" + materia + "*! *40* pts por trimestre son tu meta. ¡Enfrenta el reto con valentía! 🛡️";
         }
 
-
         else if (puntosFaltantes == 81) {
-            mensaje = "¡El camino es largo, pero no imposible! En: %0A*" + materia + "*%0A te faltan %0A*81* puntos.%0ADebes obtener:%0A- 2do Trimestre: *40.5* pts%0A- 3er Trimestre: *40.5* pts%0A¡Organízate y verás resultados!";
+            mensaje = "📊 *Plan de recuperación:*%0A- Total faltante: *81* pts%0A- 2do Trimestre: *40.5* pts%0A- 3er Trimestre: *40.5* pts%0A%0A¡Reto máximo en *" + materia + "*! Necesitas *40.5* pts por trimestre. Reúnete con tu profesor para un plan personalizado. ¡Sí se puede con estrategia! 💡";
         } else if (puntosFaltantes == 82) {
-            mensaje = "¡No te rindas antes de intentarlo! En: %0A*" + materia + "*%0A te faltan %0A*82* puntos.%0AMeta por periodo:%0A- 41 pts en cada trimestre%0A¡La disciplina vence al talento!";
+            mensaje = "📊 *Plan de recuperación:*%0A- Total faltante: *82* pts%0A- 2do Trimestre: *41* pts%0A- 3er Trimestre: *41* pts%0A%0A¡Enfócate en *" + materia + "*! *41* pts por trimestre requieren:%0A• Asistencia perfecta%0A• Trabajos extras%0A• Refuerzo semanal%0A¡Tu esfuerzo vale oro! ✨";
         } else if (puntosFaltantes == 83) {
-            mensaje = "¡Cada esfuerzo suma! En: %0A*" + materia + "*%0A te faltan %0A*83* puntos.%0APara aprobar necesitas:%0A- 2do Trim: *41.5* pts%0A- 3ro Trim: *41.5* pts%0A¡Hoy es el día para empezar!";
+            mensaje = "📊 *Plan de recuperación:*%0A- Total faltante: *83* pts%0A- 2do Trimestre: *41.5* pts%0A- 3er Trimestre: *41.5* pts%0A%0A¡Organización es clave en *" + materia + "*! Para esos *41.5* pts por trimestre:%0A1. Prioriza temas con más peso%0A2. Busca tutorías%0A3. Revisa errores pasados%0A¡Tú puedes! 📚";
         } else if (puntosFaltantes == 84) {
-            mensaje = "¡El éxito es la suma de pequeños esfuerzos! En: %0A*" + materia + "*%0A te faltan %0A*84* puntos.%0ADistribución ideal:%0A- 42 pts por trimestre%0A¡Persiste y lo lograrás!";
+            mensaje = "📊 *Plan de recuperación:*%0A- Total faltante: *84* pts%0A- 2do Trimestre: *42* pts%0A- 3er Trimestre: *42* pts%0A%0A¡Divide y vencerás en *" + materia + "*! Con *42* pts por trimestre:%0A• 10 pts/mes en evaluaciones%0A• 8 pts/mes en trabajos%0A• 3 pts/mes en participación%0A¡Meta alcanzable! 🎯";
         } else if (puntosFaltantes == 85) {
-            mensaje = "¡No mires el monte, mira el siguiente paso! En: %0A*" + materia + "*%0A te faltan %0A*85* puntos.%0AMeta mínima:%0A- 2do Trim: *42.5* pts%0A- 3ro Trim: *42.5* pts%0A¡Paso a paso llegarás lejos!";
+            mensaje = "📊 *Plan de recuperación:*%0A- Total faltante: *85* pts%0A- 2do Trimestre: *42.5* pts%0A- 3er Trimestre: *42.5* pts%0A%0A¡Transforma el desafío en *" + materia + "*! Esos *42.5* pts por trimestre requieren:%0A- Clases de refuerzo%0A- Exámenes de práctica%0A- Autoevaluación constante%0A¡El crecimiento duele, pero vale la pena! 🌱";
         } else if (puntosFaltantes == 86) {
-            mensaje = "¡Tú decides tu límite! En: %0A*" + materia + "*%0A te faltan %0A*86* puntos.%0ANecesitas:%0A- 43 pts cada trimestre%0A¡No dejes que los números te definan!";
+            mensaje = "📊 *Plan de recuperación:*%0A- Total faltante: *86* pts%0A- 2do Trimestre: *43* pts%0A- 3er Trimestre: *43* pts%0A%0A¡Tú defines tus límites en *" + materia + "*! Para *43* pts por trimestre:%0A✓ 20 pts: Exámenes%0A✓ 15 pts: Proyectos%0A✓ 8 pts: Extras%0A¡Enfócate y verás resultados! 🔍";
         } else if (puntosFaltantes == 87) {
-            mensaje = "¡El esfuerzo transforma lo difícil en posible! En: %0A*" + materia + "*%0A te faltan %0A*87* puntos.%0APara lograrlo:%0A- 2do Trim: *43.5* pts%0A- 3ro Trim: *43.5* pts%0A¡Tu actitud marca la diferencia!";
+            mensaje = "📊 *Plan de recuperación:*%0A- Total faltante: *87* pts%0A- 2do Trimestre: *43.5* pts%0A- 3er Trimestre: *43.5* pts%0A%0A¡El esfuerzo transforma *" + materia + "*! Esos *43.5* pts por trimestre son posibles con:%0A• 2h diarias de estudio%0A• Grupo de apoyo%0A• Corrección de errores%0A¡Persiste! ⏳";
         } else if (puntosFaltantes == 88) {
-            mensaje = "¡No es fácil, pero vale la pena! En: %0A*" + materia + "*%0A te faltan %0A*88* puntos.%0ADebes obtener:%0A- 44 pts por trimestre%0A¡El sacrificio hoy traerá recompensas mañana!";
+            mensaje = "📊 *Plan de recuperación:*%0A- Total faltante: *88* pts%0A- 2do Trimestre: *44* pts%0A- 3er Trimestre: *44* pts%0A%0A¡No es fácil pero vale la pena en *" + materia + "*! *44* pts por trimestre requieren:%0A- Sacrificar distracciones%0A- Pedir ayuda a tiempo%0A- Celebrar pequeños logros%0A¡Tú puedes! 💪";
         } else if (puntosFaltantes == 89) {
-            mensaje = "¡La constancia rompe cualquier barrera! En: %0A*" + materia + "*%0A te faltan %0A*89* puntos.%0AMeta por periodo:%0A- 2do Trim: *44.5* pts%0A- 3ro Trim: *44.5* pts%0A¡No abandones ahora!";
+            mensaje = "📊 *Plan de recuperación:*%0A- Total faltante: *89* pts%0A- 2do Trimestre: *44.5* pts%0A- 3er Trimestre: *44.5* pts%0A%0A¡Constancia rompe barreras en *" + materia + "*! Para *44.5* pts por trimestre:%0A1. Diagnóstico de fallas%0A2. Plan semanal%0A3. Revisiones mensuales%0A¡No abandones! 🏋️";
         } else if (puntosFaltantes == 90) {
-            mensaje = "¡90 puntos son solo 30 por mes! En: %0A*" + materia + "*%0A te faltan %0A*90* puntos.%0APuntos necesarios:%0A- 45 en cada trimestre%0A¡Divide el reto en metas pequeñas!";
+            mensaje = "📊 *Plan de recuperación:*%0A- Total faltante: *90* pts%0A- 2do Trimestre: *45* pts%0A- 3er Trimestre: *45* pts%0A%0A¡90 puntos = ¡30 por mes en *" + materia + "*! Desglose:%0A• 15 pts: Evaluaciones%0A• 10 pts: Tareas%0A• 5 pts: Participación%0A¡Organización es poder! ✨";
         } else if (puntosFaltantes == 91) {
-            mensaje = "¡Más que números, es tu actitud! En: %0A*" + materia + "*%0A te faltan %0A*91* puntos.%0ADistribución:%0A- 2do Trim: *45.5* pts%0A- 3ro Trim: *45.5* pts%0A¡Enfócate en progresar, no en la perfección!";
+            mensaje = "📊 *Plan de recuperación:*%0A- Total faltante: *91* pts%0A- 2do Trimestre: *45.5* pts%0A- 3er Trimestre: *45.5* pts%0A%0A¡Actitud > Números en *" + materia + "*! Esos *45.5* pts por trimestre requieren:%0A- Enfoque en progreso%0A- Aprendizaje activo%0A- Mentalidad de crecimiento%0A¡Tú mandas! 🧠";
         } else if (puntosFaltantes == 92) {
-            mensaje = "¡No cuentes los días, haz que los días cuenten! En: %0A*" + materia + "*%0A te faltan %0A*92* puntos.%0AMeta mínima:%0A- 46 pts por trimestre%0A¡Cada día de estudio suma!";
+            mensaje = "📊 *Plan de recuperación:*%0A- Total faltante: *92* pts%0A- 2do Trimestre: *46* pts%0A- 3er Trimestre: *46* pts%0A%0A¡Haz que cada día cuente en *" + materia + "*! *46* pts por trimestre son:%0A• 1.5 pts/día de clase%0A• +3 pts/semana extras%0A• +5 pts/proyecto%0A¡Súmale! 🎯";
         } else if (puntosFaltantes == 93) {
-            mensaje = "¡El conocimiento es tu mejor inversión! En: %0A*" + materia + "*%0A te faltan %0A*93* puntos.%0APara aprobar necesitas:%0A- 2do Trim: *46.5* pts%0A- 3ro Trim: *46.5* pts%0A¡Estás construyendo tu futuro!";
+            mensaje = "📊 *Plan de recuperación:*%0A- Total faltante: *93* pts%0A- 2do Trimestre: *46.5* pts%0A- 3er Trimestre: *46.5* pts%0A%0A¡Invierte en tu futuro con *" + materia + "*! Esos *46.5* pts por trimestre son posibles con:%0A✓ Tutorías 2x/semana%0A✓ Exámenes simulacro%0A✓ Portafolio de avances%0A¡Construye tu éxito! 🏗️";
         } else if (puntosFaltantes == 94) {
-            mensaje = "¡No es el momento de rendirse! En: %0A*" + materia + "*%0A te faltan %0A*94* puntos.%0ADebes lograr:%0A- 47 pts cada trimestre%0A¡Los momentos difíciles forjan carácter!";
+            mensaje = "📊 *Plan de recuperación:*%0A- Total faltante: *94* pts%0A- 2do Trimestre: *47* pts%0A- 3er Trimestre: *47* pts%0A%0A¡Momento de reinvención en *" + materia + "*! *47* pts por trimestre requieren:%0A- Nuevos métodos de estudio%0A- Horario estricto%0A- Autoevaluación%0A¡Los límites los pones tú! 💥";
         } else if (puntosFaltantes == 95) {
-            mensaje = "¡La excelencia es un hábito! En: %0A*" + materia + "*%0A te faltan %0A*95* puntos.%0AMeta por periodo:%0A- 2do Trim: *47.5* pts%0A- 3ro Trim: *47.5* pts%0A¡Hazlo bien desde el principio!";
+            mensaje = "📊 *Plan de recuperación:*%0A- Total faltante: *95* pts%0A- 2do Trimestre: *47.5* pts%0A- 3er Trimestre: *47.5* pts%0A%0A¡Excelencia es hábito en *" + materia + "*! Para *47.5* pts por trimestre:%0A1. Calidad > Cantidad%0A2. Feedback constante%0A3. Mejora continua%0A¡Hazlo bien desde el inicio! ✨";
         } else if (puntosFaltantes == 96) {
-            mensaje = "¡No esperes a mañana! En: %0A*" + materia + "*%0A te faltan %0A*96* puntos.%0ANecesitas:%0A- 48 pts por trimestre%0A¡El tiempo pasa, actúa hoy!";
+            mensaje = "📊 *Plan de recuperación:*%0A- Total faltante: *96* pts%0A- 2do Trimestre: *48* pts%0A- 3er Trimestre: *48* pts%0A%0A¡No esperes a mañana con *" + materia + "*! *48* pts por trimestre son:%0A• 24 pts: Exámenes%0A• 16 pts: Proyectos%0A• 8 pts: Extras%0A¡Actúa hoy! ⚡";
         } else if (puntosFaltantes == 97) {
-            mensaje = "¡Tu mayor competencia eres tú mismo! En: %0A*" + materia + "*%0A te faltan %0A*97* puntos.%0APara lograrlo:%0A- 2do Trim: *48.5* pts%0A- 3ro Trim: *48.5* pts%0A¡Supera tus propios límites!";
+            mensaje = "📊 *Plan de recuperación:*%0A- Total faltante: *97* pts%0A- 2do Trimestre: *48.5* pts%0A- 3er Trimestre: *48.5* pts%0A%0A¡Supera tus propios límites en *" + materia + "*! Esos *48.5* pts por trimestre requieren:%0A- Autodisciplina%0A- Resiliencia%0A- Mentalidad estratégica%0A¡Eres tu mayor competencia! 🏆";
         } else if (puntosFaltantes == 98) {
-            mensaje = "¡98 puntos son tu próximo reto! En: %0A*" + materia + "*%0A te faltan %0A*98* puntos.%0ADistribución ideal:%0A- 49 pts cada trimestre%0A¡Acepta el desafío con valentía!";
+            mensaje = "📊 *Plan de recuperación:*%0A- Total faltante: *98* pts%0A- 2do Trimestre: *49* pts%0A- 3er Trimestre: *49* pts%0A%0A¡98 puntos = Tu oportunidad en *" + materia + "*! Desglose:%0A1. 60% exámenes%0A2. 30% trabajos%0A3. 10% participación%0A¡Acepta el desafío! 💪";
         } else if (puntosFaltantes == 99) {
-            mensaje = "¡El último esfuerzo es el que cuenta! En: %0A*" + materia + "*%0A te faltan %0A*99* puntos.%0AMeta mínima:%0A- 2do Trim: *49.5* pts%0A- 3ro Trim: *49.5* pts%0A¡No pierdas de vista la meta!";
+            mensaje = "📊 *Plan de recuperación:*%0A- Total faltante: *99* pts%0A- 2do Trimestre: *49.5* pts%0A- 3er Trimestre: *49.5* pts%0A%0A¡El último esfuerzo cuenta en *" + materia + "*! *49.5* pts por trimestre requieren:%0A• Máxima dedicación%0A• Apoyo académico%0A• Autocuidado%0A¡No pierdas de vista la meta! 🏁";
         } else if (puntosFaltantes == 100) {
-            mensaje = "¡100 puntos son tu oportunidad para brillar! En: %0A*" + materia + "*%0A te faltan %0A*100* puntos.%0APuntos necesarios:%0A- 50 en cada trimestre%0A¡Demuestra de qué estás hecho!";
+            mensaje = "📊 *Plan de recuperación:*%0A- Total faltante: *100* pts%0A- 2do Trimestre: *50* pts%0A- 3er Trimestre: *50* pts%0A%0A¡100 puntos = Tu prueba de fuego en *" + materia + "*! Estrategia:%0A- 60 pts: Evaluaciones clave%0A- 30 pts: Proyectos%0A- 10 pts: Extras%0A¡Demuestra tu capacidad! 🌟";
         }
 
         else if (puntosFaltantes == 101) {
-            mensaje = "¡Reto máximo activado! En %0A*" + materia + "*%0A necesitas *101* pts extras.%0A• 2do Trim: *50.5* pts%0A• 3er Trim: *50.5* pts%0A¡Requiere planificación, pero hay caminos! 🗺️%0A%0AConsejo: Enfócate en trabajos prácticos y participación activa para sumar puntos extras.";
+            mensaje = "📉 *Situación crítica - Plan especial*%0A- Total faltante: *101* pts%0A- 2do Trimestre: *50.5* pts%0A- 3er Trimestre: *50.5* pts%0A%0A¡Acción inmediata requerida!%0A1️⃣ Reunión URGENTE con el profesor%0A2️⃣ Solicitar proyectos de recuperación%0A3️⃣ Considerar tutorías diarias%0A%0A⚠️ Importante: Esto no define tu capacidad, solo requiere un plan distinto";
         } else if (puntosFaltantes == 102) {
-            mensaje = "¡Modo recuperación! En %0A*" + materia + "*%0A faltan *102* puntos.%0A• Meta/trimestre: *51* pts%0A%0A¡Habla con tu profesor sobre:%0A- Proyectos extras%0A- Revisión de evaluaciones%0A- Puntos por mejora continua%0A%0A¡Todo es negociable! ✍️";
+            mensaje = "🔄 *Reinicio estratégico*%0A- Total faltante: *102* pts%0A- Por trimestre: *51* pts%0A%0A¡Opciones realistas:%0A• Validar conocimientos por experiencia%0A• Examen global diferenciado%0A• Programa de nivelación acelerada%0A%0A💡 El éxito tiene muchos caminos";
         } else if (puntosFaltantes == 103) {
-            mensaje = "¡Plan de acción necesario! En %0A*" + materia + "*%0A%0A*103* pts por recuperar.%0A• 2do Trim: *51.5* pts%0A• 3ro Trim: *51.5* pts%0A%0AEstrategias:%0A1. Prioriza esta materia%0A2. Asiste a clases de refuerzo%0A3. Entrega TODO a tiempo%0A%0A¡Reinventa tu método! 🔄";
+            mensaje = "🧭 *Ruta alternativa*%0A- Total faltante: *103* pts%0A- 2do Trim: *51.5* pts%0A- 3er Trim: *51.5* pts%0A%0A¡Enfócate en:%0A✅ Competencias básicas%0A✅ Proyectos prácticos%0A✅ Autoevaluación semanal%0A%0A✨ Pequeños logros llevan a grandes resultados";
         } else if (puntosFaltantes == 104) {
-            mensaje = "¡Foco en soluciones! En %0A*" + materia + "*%0A%0A*104* puntos faltantes.%0A• 52 pts/trimestre%0A%0A¿Sabías que?:%0A- Un proyecto especial puede valer 20-30 pts%0A- Mejorar exámenes antiguos suma%0A- La actitud cuenta%0A%0A¡Explora todas las opciones! 💡";
+            mensaje = "⚡ *Plan de choque*%0A- Total faltante: *104* pts%0A- Por trimestre: *52* pts%0A%0A¡Requiere:%0A▸ 2 horas diarias de estudio%0A▸ Asesorías 3x/semana%0A▸ Entregar TODO a tiempo%0A%0A🔥 15 minutos extra al día marcan la diferencia";
         } else if (puntosFaltantes == 105) {
-            mensaje = "¡105 puntos = ¡52.5 por etapa!%0AEn *" + materia + "*%0A%0ARequerimiento:%0A• 2do Trim: *52.5* pts%0A• 3ro Trim: *52.5* pts%0A%0A¡No es imposible! Ejemplo:%0A- Exámenes (30pts)%0A- Proyectos (15pts)%0A- Participación (7.5pts)%0A%0A¡Todo suma! 🧮";
+            mensaje = "📌 *Puntos de rescate*%0A- Total faltante: *105* pts%0A- 2do Trim: *52.5* pts%0A- 3er Trim: *52.5* pts%0A%0A¡Cómo sumar puntos:%0A• +20 pts: Examen remedial%0A• +15 pts: Trabajo investigativo%0A• +10 pts: Asistencia perfecta%0A%0A🎯 Enfócate en lo recuperable";
         } else if (puntosFaltantes == 106) {
-            mensaje = "¡Autoevaluación urgente! En %0A*" + materia + "*%0A%0A*106* pts necesarios.%0A• 53 pts/periodo%0A%0APregúntate:%0A▸ ¿Estoy usando todos los recursos?%0A▸ ¿He pedido ayuda?%0A▸ ¿Puedo mejorar mi organización?%0A%0A¡Nuevas estrategias = Nuevos resultados! 📈";
+            mensaje = "🛠️ *Reconstrucción académica*%0A- Total faltante: *106* pts%0A- Por trimestre: *53* pts%0A%0A¡Pasos clave:%0A1. Diagnosticar fallas específicas%0A2. Crear cronograma semanal%0A3. Buscar mentor%0A%0A💎 Las crisis son oportunidades disfrazadas";
         } else if (puntosFaltantes == 107) {
-            mensaje = "¡107 puntos son tu oportunidad para destacar!%0AEn *" + materia + "*%0A%0A• 2do Trim: *53.5* pts%0A• 3ro Trim: *53.5* pts%0A%0A¡Enfócate en:%0A- Puntos extras por creatividad%0A- Asistencia perfecta%0A- Mejorar trabajos anteriores%0A%0A¡La excelencia se construye! 🏗️";
+            mensaje = "🚨 *Alerta máxima - Plan B*%0A- Total faltante: *107* pts%0A- 2do Trim: *53.5* pts%0A- 3er Trim: *53.5* pts%0A%0A¡Opciones:%0A▶ Curso intensivo vacacional%0A▶ Validar conocimientos previos%0A▶ Educación por proyectos%0A%0A🌱 A veces hay que dar un paso atrás para avanzar";
         } else if (puntosFaltantes == 108) {
-            mensaje = "¡108 puntos = ¡54 por etapa!%0AEn *" + materia + "*%0A%0A¡Opciones realistas:%0A1. Tutorías personalizadas (+15pts)%0A2. Presentar material adicional (+10pts)%0A3. Mejorar notas existentes (+5pts c/u)%0A%0A¡Cada punto cuenta! 💯";
+            mensaje = "🧩 *Aprendizaje modular*%0A- Total faltante: *108* pts%0A- Por trimestre: *54* pts%0A%0A¡Estrategia:%0A• Dominar unidades clave primero%0A• Acumular créditos parciales%0A• Priorizar calidad sobre cantidad%0A%0A⚖️ Equilibra esfuerzo con resultados";
         } else if (puntosFaltantes == 109) {
-            mensaje = "¡109 puntos faltantes = ¡Reinvención académica!%0AEn *" + materia + "*%0A%0A• 2do Trim: *54.5* pts%0A• 3ro Trim: *54.5* pts%0A%0A¡Transforma esto en:%0A- Oportunidad para dominar el tema%0A- Posibilidad de crecimiento%0A- Historia de superación%0A%0A¡Tú decides el final! ✨";
+            mensaje = "🎢 *Recorrido adaptado*%0A- Total faltante: *109* pts%0A- 2do Trim: *54.5* pts%0A- 3er Trim: *54.5* pts%0A%0A¡Enfoque innovador:%0A✓ Aprendizaje basado en problemas%0A✓ Evaluación por portafolio%0A✓ Mentorías personalizadas%0A%0A🚀 La creatividad abre nuevos caminos";
         } else if (puntosFaltantes == 110) {
-            mensaje = "¡110 puntos = ¡55 por periodo!%0AEn *" + materia + "*%0A%0ADesglose posible:%0A- Exámenes principales: 35pts%0A- Trabajos prácticos: 15pts%0A- Participación: 5pts%0A%0A¡Requiere esfuerzo total pero ES POSIBLE!%0A¡Tu actitud marca la diferencia! 💪";
+            mensaje = "⚖️ *Balance realista*%0A- Total faltante: *110* pts%0A- Por trimestre: *55* pts%0A%0A¡Desglose posible:%0A• 60% exámenes principales%0A• 30% trabajos prácticos%0A• 10% participación%0A%0A💡 Enfócate en lo esencial";
         } else if (puntosFaltantes == 111) {
-            mensaje = "¡111 puntos faltantes = ¡Reto épico!%0AEn *" + materia + "*%0A%0A• 2do Trim: *55.5* pts%0A• 3ro Trim: *55.5* pts%0A%0A¡Conviértelo en:%0A- Tu materia de mayor crecimiento%0A- Ejemplo de resiliencia%0A- Motivación para otros%0A%0A¡Eres capaz de más de lo que crees! 🚀";
+            mensaje = "🏗️ *Cimientos nuevos*%0A- Total faltante: *111* pts%0A- 2do Trim: *55.5* pts%0A- 3er Trim: *55.5* pts%0A%0A¡Recomendaciones:%0A• Clases particulares 2x/semana%0A• Grupos de estudio%0A• Refuerzo en vacaciones%0A%0A🌻 Planta semillas para el futuro";
         } else if (puntosFaltantes == 112) {
-            mensaje = "¡112 puntos necesarios = ¡56 por etapa!%0AEn *" + materia + "*%0A%0A¡Estrategias comprobadas:%0A1. Asistir a todas las clases (+5pts)%0A2. Entregar borradores para feedback (+7pts)%0A3. Hacer preguntas clave (+3pts)%0A%0A¡Pequeñas acciones = Grandes resultados! 🔍";
+            mensaje = "📈 *Progreso escalonado*%0A- Total faltante: *112* pts%0A- Por trimestre: *56* pts%0A%0A¡Metas mensuales:%0A- Mes 1: Bases sólidas (15pts)%0A- Mes 2: Aplicación (20pts)%0A- Mes 3: Consolidación (21pts)%0A%0A🐢 Despacio pero sin pausa";
         } else if (puntosFaltantes == 113) {
-            mensaje = "¡113 puntos = ¡Tu gran oportunidad!%0AEn *" + materia + "*%0A%0A• 2do Trim: *56.5* pts%0A• 3ro Trim: *56.5* pts%0A%0A¡Alternativas:%0A- Exámenes de recuperación%0A- Proyectos interdisciplinarios%0A- Portafolio de evidencias%0A%0A¡Consulta a tu profesor! 👨🏫";
+            mensaje = "🧠 *Cambio de mentalidad*%0A- Total faltante: *113* pts%0A- 2do Trim: *56.5* pts%0A- 3er Trim: *56.5* pts%0A%0A¡Nuevo enfoque:%0A• Aprender vs Aprobar%0A• Proceso vs Resultado%0A• Resiliencia académica%0A%0A🌟 El crecimiento personal vale más que cualquier nota";
         } else if (puntosFaltantes == 114) {
-            mensaje = "¡114 puntos faltantes = ¡Plan de batalla!%0AEn *" + materia + "*%0A%0A• 57 pts/trimestre%0A%0A¡Recursos disponibles:%0A- Biblioteca escolar%0A- Grupos de estudio%0A- Plataformas digitales%0A- Horarios de consulta%0A%0A¡Usa todas tus armas! 🛡️";
+            mensaje = "🛡️ *Modo resistencia*%0A- Total faltante: *114* pts%0A- Por trimestre: *57* pts%0A%0A¡Kit de supervivencia:%0A✚ Banco de recursos%0A✚ Grupo de apoyo%0A✚ Registro de micro-logros%0A%0A⚡ Pequeñas victorias llevan al éxito";
         } else if (puntosFaltantes == 115) {
-            mensaje = "¡115 puntos = ¡57.5 por periodo!%0AEn *" + materia + "*%0A%0A¡Desglose estratégico:%0A▸ 40pts (Evaluaciones)%0A▸ 12pts (Tareas)%0A▸ 5.5pts (Extra)%0A%0A¡Enfoque en calidad sobre cantidad!%0A¡Mejorar > Multiplicar! 🎯";
+            mensaje = "🎯 *Disparando a metas*%0A- Total faltante: *115* pts%0A- 2do Trim: *57.5* pts%0A- 3er Trim: *57.5* pts%0A%0A¡Estrategia de precisión:%0A• 40pts evaluaciones clave%0A• 12pts trabajos destacados%0A• 5.5pts extras%0A%0A🏹 Enfócate y dispara";
         } else if (puntosFaltantes == 116) {
-            mensaje = "¡116 puntos necesarios = ¡Tu momento de brillar!%0AEn *" + materia + "*%0A%0A• 2do Trim: *58* pts%0A• 3ro Trim: *58* pts%0A%0A¡Convierte esto en:%0A- Historia de superación%0A- Ejemplo de perseverancia%0A- Lección de vida%0A%0A¡El esfuerzo nunca se pierde! 🌟";
+            mensaje = "🚂 *Tren del progreso*%0A- Total faltante: *116* pts%0A- Por trimestre: *58* pts%0A%0A¡Estaciones de recuperación:%0A1. Diagnóstico (semana 1)%0A2. Ataque a debilidades (4 semanas)%0A3. Consolidación (2 semanas)%0A%0A📍 Sigue el recorrido";
         } else if (puntosFaltantes == 117) {
-            mensaje = "¡117 puntos faltantes = ¡Ultra-motivación!%0AEn *" + materia + "*%0A%0A• 58.5 pts/etapa%0A%0A¡Recordatorio:%0A- Einstein reprobó matemáticas%0A- Steve Jobs abandonó la universidad%0A- Lo importante es NO rendirse%0A%0A¡Escribe tu propia historia! 📖";
+            mensaje = "🧗 *Escalando el reto*%0A- Total faltante: *117* pts%0A- 2do Trim: *58.5* pts%0A- 3er Trim: *58.5* pts%0A%0A¡Equipo necesario:%0A• Guía (profesor/tutor)%0A• Material (apuntes/resources)%0A• Fuerza mental (actitud)%0A%0A⛰️ La vista desde la cima valdrá la pena";
         } else if (puntosFaltantes == 118) {
-            mensaje = "¡118 puntos = ¡59 por periodo!%0AEn *" + materia + "*%0A%0A¡Opciones reales:%0A1. Examen extraordinario (+30pts)%0A2. Trabajo comunitario relacionado (+15pts)%0A3. Presentación especial (+10pts)%0A%0A¡Innovación académica! 💡";
+            mensaje = "🧮 *Matemática de recuperación*%0A- Total faltante: *118* pts%0A- Por trimestre: *59* pts%0A%0A¡Sumando puntos:%0A+30pts Examen extraordinario%0A+15pts Proyecto comunitario%0A+10pts Presentación especial%0A%0A➕ Todo suma cuando te esfuerzas";
         } else if (puntosFaltantes == 119) {
-            mensaje = "¡119 puntos faltantes = ¡Tu prueba de fuego!%0AEn *" + materia + "*%0A%0A• 2do Trim: *59.5* pts%0A• 3ro Trim: *59.5* pts%0A%0A¡En situaciones difíciles se forjan caracteres fuertes!%0A¡Este es tu momento de crecimiento! 🌱";
+            mensaje = "⚙️ *Ajuste de última hora*%0A- Total faltante: *119* pts%0A- 2do Trim: *59.5* pts%0A- 3er Trim: *59.5* pts%0A%0A¡Plan emergente:%0A• Priorizar 3 temas clave%0A• Maximizar trabajos prácticos%0A• Buscar puntos por actitud%0A%0A🛠️ Convierte lo imposible en reto";
         } else if (puntosFaltantes == 120) {
-            mensaje = "¡120 puntos necesarios = ¡60 por etapa!%0AEn *" + materia + "*%0A%0A¡Análisis honesto:%0A• Requiere dedicación exclusiva%0A• Necesita apoyo docente%0A• Posible reiniciar el año%0A%0A¡Pero recuerda:%0AEl éxito tiene muchas formas%0A¡Y tú defines la tuya! 🏆";
+            mensaje = "📚 *Aprendizaje acelerado*%0A- Total faltante: *120* pts%0A- Por trimestre: *60* pts%0A%0A¡Método recomendado:%0A1. Técnica Pomodoro (25min estudio)%0A2. Mapas mentales%0A3. Enseñar lo aprendido%0A%0A🧠 Convierte la presión en tu aliada";
+        } else if (puntosFaltantes == 121) {
+            mensaje = "🔄 *Reinicio total*%0A- Total faltante: *121* pts%0A- 2do Trim: *60.5* pts%0A- 3er Trim: *60.5* pts%0A%0A¡Oportunidad para:%0A• Construir bases sólidas%0A• Adquirir nuevos hábitos%0A• Demostrar resiliencia%0A%0A🌱 Los grandes árboles empezaron pequeños";
+        } else if (puntosFaltantes == 122) {
+            mensaje = "🏗️ *Reestructuración académica*%0A- Total faltante: *122* pts%0A- Por trimestre: *61* pts%0A%0A¡Nuevos cimientos:%0A▸ Diagnóstico de estilos de aprendizaje%0A▸ Horario de estudio realista%0A▸ Sistema de recompensas%0A%0A⚡ Transforma el fracaso en combustible";
+        } else if (puntosFaltantes == 123) {
+            mensaje = "🧭 *Navegando aguas difíciles*%0A- Total faltante: *123* pts%0A- 2do Trim: *61.5* pts%0A- 3er Trim: *61.5* pts%0A%0A¡Bitácora de viaje:%0A• Semana 1-4: Bases teóricas%0A• Semana 5-8: Práctica guiada%0A• Semana 9-12: Consolidación%0A%0A⛵ Aprendizaje para la vida";
+        } else if (puntosFaltantes == 124) {
+            mensaje = "⚔️ *Batalla académica*%0A- Total faltante: *124* pts%0A- Por trimestre: *62* pts%0A%0A¡Armamento necesario:%0A✏️ Técnicas de estudio probadas%0A🛡️ Grupo de apoyo%0A💊 Dosis diaria de motivación%0A%0A🏆 La victoria será más dulce";
+        } else if (puntosFaltantes == 125) {
+            mensaje = "🌅 *Nuevo amanecer*%0A- Total faltante: *125* pts%0A- 2do Trim: *62.5* pts%0A- 3er Trim: *62.5* pts%0A%0A¡Enfoque renovado:%0A• Aprendizaje significativo%0A• Progreso sobre perfección%0A• Mentalidad de crecimiento%0A%0A✨ Cada día es una nueva oportunidad";
         }
 
-        else if (puntosFaltantes == 121) {
-            mensaje = "📌 *Situación crítica - Plan emergente*%0AEn *" + materia + "*%0A*121* pts faltantes (60.5/trimestre)%0A%0A🔍 *Acciones inmediatas:*%0A1. Reunión URGENTE con el profesor%0A2. Solicitar evaluación diagnóstica%0A3. Considerar recursar con ventajas%0A%0A⚠️ Importante: Esto no define tu capacidad, solo tu estrategia";
-        } else if (puntosFaltantes == 122) {
-            mensaje = "⚡ *Reinicio inteligente*%0AEn *" + materia + "*%0A*122* pts = 61/trimestre%0A%0A💡 *Alternativas viables:*%0A• Iniciar el año con:%0A- Clases de nivelación%0A- Tutoría permanente%0A- Portafolio de avances%0A%0A✨ *Oportunidad oculta:* Podrías dominar la materia como nadie";
-        } else if (puntosFaltantes == 123) {
-            mensaje = "🔄 *Reprogramación académica*%0A*" + materia + "* requiere *123* pts%0A(61.5/trimestre)%0A%0A📚 *Estrategia recomendada:*%0A1. Priorizar esta materia%0A2. Aprovechar vacaciones para nivelación%0A3. Crear grupo de estudio%0A%0A🌱 *Recordatorio:* Los grandes expertos fallaron primero";
-        } else if (puntosFaltantes == 124) {
-            mensaje = "🧩 *Rompecabezas educativo*%0AEn *" + materia + "*%0A*124* pts faltantes (62/trimestre)%0A%0A🔧 *Solución modular:*%0A- Completar unidades clave primero%0A- Validar conocimientos parciales%0A- Acumular créditos progresivos%0A%0A💎 *Beneficio oculto:* Aprendizaje más profundo";
-        } else if (puntosFaltantes == 125) {
-            mensaje = "🎯 *Meta redefinida*%0A*" + materia + "* necesita *125* pts%0A(62.5/trimestre)%0A%0A🛠️ *Enfoque alternativo:*%0A1. Concentrarse en competencias básicas%0A2. Demostrar mejora continua%0A3. Obtener aval por proyectos%0A%0A🚩 *Importante:* El aprendizaje va más allá de las notas";
-        } else if (puntosFaltantes == 126) {
-            mensaje = "📉 *Análisis de oportunidad*%0AEn *" + materia + "*%0A*126* pts = 63/trimestre%0A%0A🔄 *Opciones realistas:*%0A• Curso intensivo pre-trimestre%0A• Validar conocimientos por experiencia%0A• Examen global diferenciado%0A%0A⚖️ *Perspectiva:* Equilibrio entre esfuerzo y resultado";
+        else if (puntosFaltantes == 126) {
+            mensaje = "📌 *Plan de rescate académico*%0A- Total faltante: *126* pts%0A- 2do Trimestre: *63* pts%0A- 3er Trimestre: *63* pts%0A%0A¡Acciones clave:%0A1. Reunión urgente con coordinador%0A2. Priorizar unidades recuperables%0A3. Solicitar evaluación por proyectos%0A%0A⚠️ Requerirá esfuerzo extraordinario pero hay caminos";
         } else if (puntosFaltantes == 127) {
-            mensaje = "🧭 *Navegación académica*%0A*" + materia + "* requiere *127* pts%0A(63.5/trimestre)%0A%0A🗺️ *Rutas posibles:*%0A1. Plan semestral extendido%0A2. Educación dual (teoría + práctica)%0A3. Proyecto aplicado sustituyente%0A%0A🌅 *Nuevo enfoque:* Aprendizaje significativo > Puntos";
+            mensaje = "🛠️ *Reingeniería educativa*%0A- Total faltante: *127* pts%0A- Por trimestre: *63.5* pts%0A%0A¡Nuevo enfoque:%0A• Aprendizaje basado en competencias%0A• Validación de conocimientos prácticos%0A• Portafolio de evidencias%0A%0A🔧 Reconstruye tu método desde cero";
         } else if (puntosFaltantes == 128) {
-            mensaje = "⚙️ *Ajuste de estrategia mayor*%0AEn *" + materia + "*%0A*128* pts faltantes (64/trimestre)%0A%0A🛠️ *Recomendaciones técnicas:*%0A• Diagnosticar fallas específicas%0A• Crear mapa de recuperación%0A• Establecer hitos semanales%0A%0A🔍 *Dato clave:* 72% de estudiantes mejoran al reenfocarse";
+            mensaje = "⚡ *Choque de realidad - Plan alternativo*%0A- Total faltante: *128* pts%0A- 2do Trim: *64* pts%0A- 3er Trim: *64* pts%0A%0A¡Opciones viables:%0A▸ Curso remedial completo%0A▸ Educación dual (teoría + práctica)%0A▸ Examen global extraordinario%0A%0A🌱 A veces hay que retroceder para avanzar mejor";
         } else if (puntosFaltantes == 129) {
-            mensaje = "🚧 *Reconstrucción académica*%0A*" + materia + "* necesita *129* pts%0A(64.5/trimestre)%0A%0A🏗️ *Cimientos nuevos:*%0A1. Clases personalizadas%0A2. Evaluación por competencias%0A3. Portafolio de evidencias%0A%0A💡 *Insight:* Las crisis generan los mayores aprendizajes";
+            mensaje = "🧩 *Rompecabezas de recuperación*%0A- Total faltante: *129* pts%0A- Por trimestre: *64.5* pts%0A%0A¡Armando la solución:%0A• 40pts: Evaluaciones clave%0A• 20pts: Trabajos acumulativos%0A• 4.5pts: Participación%0A%0A🔍 Enfócate en las piezas recuperables";
         } else if (puntosFaltantes == 130) {
-            mensaje = "🎢 *Recorrido alternativo*%0AEn *" + materia + "*%0A*130* pts = 65/trimestre%0A%0A🛤️ *Caminos disponibles:*%0A• Programa de nivelación acelerada%0A• Validación de experiencia previa%0A• Proyecto integrador anual%0A%0A🏆 *Meta real:* Dominio duradero > Aprobación rápida";
+            mensaje = "🚂 *Tren de rescate académico*%0A- Total faltante: *130* pts%0A- 2do Trim: *65* pts%0A- 3er Trim: *65* pts%0A%0A¡Estaciones obligatorias:%0A1. Diagnóstico profundo (1 semana)%0A2. Nivelación intensiva (4 semanas)%0A3. Evaluación diferenciada%0A%0A🎫 Tu pasaje al éxito requiere este viaje";
         } else if (puntosFaltantes == 131) {
-            mensaje = "🩺 *Diagnóstico académico*%0A*" + materia + "* requiere *131* pts%0A(65.5/trimestre)%0A%0A📝 *Prescripción educativa:*%0A1. Inmersión temática controlada%0A2. Aprendizaje basado en problemas%0A3. Evaluación por rubricas%0A%0A💊 *Dosis sugerida:* 2h diarias + retroalimentación constante";
+            mensaje = "🏗️ *Cimientos emergentes*%0A- Total faltante: *131* pts%0A- Por trimestre: *65.5* pts%0A%0A¡Reconstruyendo bases:%0A✓ Clases personalizadas 3x/semana%0A✓ Banco de ejercicios resueltos%0A✓ Autoevaluación diaria%0A%0A🧱 Un ladrillo cada día construye tu futuro";
         } else if (puntosFaltantes == 132) {
-            mensaje = "🚨 *Alerta de reinvención*%0AEn *" + materia + "*%0A*132* pts faltantes (66/trimestre)%0A%0A🔄 *Pasos transformadores:*%0A• Admitir necesidad de cambio radical%0A• Buscar mentor especializado%0A• Reaprender desde bases%0A%0A🌱 *Ventaja oculta:* Puedes construir mejores fundamentos";
+            mensaje = "⚖️ *Balance crítico*%0A- Total faltante: *132* pts%0A- 2do Trim: *66* pts%0A- 3er Trim: *66* pts%0A%0A¡Distribución estratégica:%0A• 70% evaluaciones principales%0A• 20% proyectos especiales%0A• 10% actividades complementarias%0A%0A📊 Enfócate donde haya mayor retorno";
         } else if (puntosFaltantes == 133) {
-            mensaje = "🧰 *Kit de supervivencia académica*%0A*" + materia + "* necesita *133* pts%0A(66.5/trimestre)%0A%0A🛠️ *Herramientas críticas:*%0A1. Banco de recursos de la materia%0A2. Grupo de apoyo emocional%0A3. Registro diario de micro-logros%0A%0A⚡ *Energía:* Enfócate en progreso, no en perfección";
+            mensaje = "🌪️ *Tormenta perfecta - Guía de supervivencia*%0A- Total faltante: *133* pts%0A- Por trimestre: *66.5* pts%0A%0A¡Kit de emergencia:%0A1. Tutorías diarias%0A2. Grupo de apoyo%0A3. Micro-metas semanales%0A%0A⚡ Esta tempestad forjará tu carácter";
         } else if (puntosFaltantes == 134) {
-            mensaje = "🚀 *Lanzamiento de recuperación*%0AEn *" + materia + "*%0A*134* pts = 67/trimestre%0A%0A🛰️ *Fases de misión:*%0A• Fase 1: Diagnóstico preciso (1 semana)%0A• Fase 2: Ataque a debilidades (4 semanas)%0A• Fase 3: Consolidación (2 semanas)%0A%0A🎯 *Objetivo:* Aprendizaje auténtico";
+            mensaje = "🔄 *Reinicio completo*%0A- Total faltante: *134* pts%0A- 2do Trim: *67* pts%0A- 3er Trim: *67* pts%0A%0A¡Oportunidad para:%0A• Adquirir hábitos de estudio reales%0A• Descubrir tu estilo de aprendizaje%0A• Construir resiliencia académica%0A%0A🌱 Las raíces fuertes producen frutos duraderos";
         } else if (puntosFaltantes == 135) {
-            mensaje = "🏗️ *Reingeniería educativa*%0A*" + materia + "* requiere *135* pts%0A(67.5/trimestre)%0A%0A📐 *Nuevo diseño:*%0A1. Unidades de aprendizaje modular%0A2. Evaluación por competencias%0A3. Creditos por demostración práctica%0A%0A💎 *Resultado:* Conocimiento aplicable > Nota numérica";
-        } else if (puntosFaltantes >= 136 && puntosFaltantes <= 153) {
-            mensaje = "🛑 *Evaluación de ruta crítica*%0AEn *" + materia + "*%0A*" + puntosFaltantes + "* pts faltantes%0A(" + (puntosFaltantes/2.0) + "/trimestre)%0A%0A📌 *Orientación profesional necesaria:*%0A1. Reunión con coordinador académico%0A2. Análisis de estilo de aprendizaje%0A3. Plan personalizado realista%0A%0A💡 *Sabías que:* Muchos genios tuvieron que reorientar su camino%0A%0A⚠️ *Sugerencia:* Considera:%0A• Curso remedial completo%0A• Cambio de estrategia académica%0A• Enfoque por competencias específicas";
+            mensaje = "📉 *Punto de inflexión*%0A- Total faltante: *135* pts%0A- Por trimestre: *67.5* pts%0A%0A¡Decisiones importantes:%0A▶ Programa intensivo de verano%0A▶ Cambio de estrategia académica%0A▶ Enfoque por competencias%0A%0A🛣️ El camino menos transitado puede ser tu solución";
+        } else if (puntosFaltantes == 136) {
+            mensaje = "🧭 *Navegando en aguas desconocidas*%0A- Total faltante: *136* pts%0A- 2do Trim: *68* pts%0A- 3er Trim: *68* pts%0A%0A¡Brújula necesaria:%0A• Mapa de contenidos esenciales%0A• Bitácora de progreso%0A• Mentor experimentado%0A%0A⛵ Aprendizaje para la vida > Notas inmediatas";
+        } else if (puntosFaltantes == 137) {
+            mensaje = "⚒️ *Taller de emergencia académica*%0A- Total faltante: *137* pts%0A- Por trimestre: *68.5* pts%0A%0A¡Herramientas críticas:%0A1. Diagnóstico de fallas específicas%0A2. Plan de 90 días%0A3. Sistema de accountability%0A%0A🛠️ La reparación requiere tiempo y dedicación";
+        } else if (puntosFaltantes == 138) {
+            mensaje = "🎯 *Disparando a metas realistas*%0A- Total faltante: *138* pts%0A- 2do Trim: *69* pts%0A- 3er Trim: *69* pts%0A%0A¡Objetivos alcanzables:%0A• Dominar 3 temas fundamentales%0A• Mejorar notas existentes%0A• Maximizar trabajos prácticos%0A%0A🏹 Enfócate en blancos estratégicos";
+        } else if (puntosFaltantes == 139) {
+            mensaje = "🧗 *Escalando la montaña académica*%0A- Total faltante: *139* pts%0A- Por trimestre: *69.5* pts%0A%0A¡Equipo necesario:%0A• Guía especializado%0A• Kit de recursos%0A• Oxígeno motivacional%0A%0A⛰️ La cumbre parece lejana pero cada paso cuenta";
+        } else if (puntosFaltantes == 140) {
+            mensaje = "⚙️ *Mecanismo de recuperación*%0A- Total faltante: *140* pts%0A- 2do Trim: *70* pts%0A- 3er Trim: *70* pts%0A%0A¡Engranajes esenciales:%0A1. Motor: Horario estricto%0A2. Combustible: Técnicas de estudio%0A3. Lubricante: Descansos programados%0A%0A🔧 Máquina académica en marcha";
+        } else if (puntosFaltantes == 141) {
+            mensaje = "🌪️ *Tormenta perfecta - Plan de contingencia*%0A- Total faltante: *141* pts%0A- Por trimestre: *70.5* pts%0A%0A¡Refugios académicos:%0A• Proyectos interdisciplinarios%0A• Evaluaciones por demostración%0A• Aprendizaje servicio%0A%0A⚡ Transforma el caos en oportunidad";
+        } else if (puntosFaltantes == 142) {
+            mensaje = "🛑 *Pare, observe y actúe*%0A- Total faltante: *142* pts%0A- 2do Trim: *71* pts%0A- 3er Trim: *71* pts%0A%0A¡Análisis requerido:%0A1. Compatibilidad con estilo de aprendizaje%0A2. Necesidades educativas especiales%0A3. Estrategias alternativas%0A%0A🚦 El semáforo está en amarillo - precaución";
+        } else if (puntosFaltantes == 143) {
+            mensaje = "🧰 *Kit de último recurso*%0A- Total faltante: *143* pts%0A- Por trimestre: *71.5* pts%0A%0A¡Contenido esencial:%0A• Banco de exámenes pasados%0A• Guías de estudio condensadas%0A• Técnicas de memoria acelerada%0A%0A⚠️ Para emergencias académicas extremas";
+        } else if (puntosFaltantes == 144) {
+            mensaje = "📚 *Aprendizaje acelerado 2.0*%0A- Total faltante: *144* pts%0A- 2do Trim: *72* pts%0A- 3er Trim: *72* pts%0A%0A¡Técnicas comprobadas:%0A1. Estudio activo (enseñar a otros)%0A2. Mapas conceptuales%0A3. Repaso espaciado%0A%0A⏱️ Carrera contra el tiempo con estrategia";
+        } else if (puntosFaltantes == 145) {
+            mensaje = "⚓ *Ancla académica*%0A- Total faltante: *145* pts%0A- Por trimestre: *72.5* pts%0A%0A¡Puntos de anclaje:%0A• 1 tema fundamental/semana%0A• 3 ejercicios clave/día%0A• 1 autoevaluación/semana%0A%0A⛵ Estabilidad en aguas turbulentas";
+        } else if (puntosFaltantes == 146) {
+            mensaje = "🧮 *Matemática de emergencia*%0A- Total faltante: *146* pts%0A- 2do Trim: *73* pts%0A- 3er Trim: *73* pts%0A%0A¡Ecuación de rescate:%0A(40pts exámenes) + (30pts proyectos) + (20pts extras) + (56pts actitud)%0A%0A➕ En situaciones difíciles, todo suma";
+        } else if (puntosFaltantes == 147) {
+            mensaje = "🏗️ *Andamios académicos*%0A- Total faltante: *147* pts%0A- Por trimestre: *73.5* pts%0A%0A¡Estructura temporal:%0A• Tutorías 4x/semana%0A• Grupos de estudio%0A• Simulacros de evaluación%0A%0A🛠️ Soporte temporal para construcción permanente";
+        } else if (puntosFaltantes == 148) {
+            mensaje = "🚧 *Zona de reconstrucción*%0A- Total faltante: *148* pts%0A- 2do Trim: *74* pts%0A- 3er Trim: *74* pts%0A%0A¡Proceso en marcha:%0A1. Demolición (malos hábitos)%0A2. Cimientos (bases sólidas)%0A3. Nueva estructura (métodos efectivos)%0A%0A🏗️ Edifica sobre experiencia, no sobre errores";
+        } else if (puntosFaltantes == 149) {
+            mensaje = "⚗️ *Fórmula química académica*%0A- Total faltante: *149* pts%0A- Por trimestre: *74.5* pts%0A%0A¡Componentes esenciales:%0A• 30% conocimiento teórico%0A• 40% aplicación práctica%0A• 30% actitud resiliente%0A%0A🧪 La mezcla perfecta para superar retos";
+        } else if (puntosFaltantes == 150) {
+            mensaje = "🎢 *Montaña rusa académica*%0A- Total faltante: *150* pts%0A- 2do Trim: *75* pts%0A- 3er Trim: *75* pts%0A%0A¡Instrucciones de seguridad:%0A1. Abróchate el cinturón (disciplina)%0A2. Mantén las manos dentro (enfoque)%0A3. Grita si es necesario (pide ayuda)%0A%0A🎢 El viaje vale la pena, ¡aguanta!";
+        } else if (puntosFaltantes == 151) {
+            mensaje = "🌋 *Erupción académica - Plan de evacuación*%0A- Total faltante: *151* pts%0A- Por trimestre: *75.5* pts%0A%0A¡Rutas de escape:%0A→ Evaluación por competencias%0A→ Proyecto integrador anual%0A→ Examen global extraordinario%0A%0A⚠️ A veces reiniciar es la mejor solución";
+        } else if (puntosFaltantes == 152) {
+            mensaje = "🧭 *Última brújula académica*%0A- Total faltante: *152* pts%0A- 2do Trim: *76* pts%0A- 3er Trim: *76* pts%0A%0A¡Coordenadas clave:%0A• Norte: Enfoque en lo esencial%0A• Sur: Apoyo emocional%0A• Este: Recursos alternativos%0A• Oeste: Autoconocimiento%0A%0A📍 Encuentra tu verdadero norte";
+        } else if (puntosFaltantes == 153) {
+            mensaje = "🛑 *Límite máximo - Reevaluación necesaria*%0A- Total faltante: *153* pts%0A- Por trimestre: *76.5* pts%0A%0A¡Opciones realistas:%0A1. Año remedial con ventajas%0A2. Educación por proyectos%0A3. Cambio de enfoque académico%0A%0A💡 Recuerda: Hay muchos caminos hacia el éxito";
         }
+
+        
         else if (puntosFaltantes > 153) {
             mensaje = "⚠️ *Reevaluación académica necesaria*%0AEn *" + materia + "*%0A*" + puntosFaltantes + "* pts faltantes%0A%0A🔍 *Análisis requerido:*%0A1. Compatibilidad con tu estilo de aprendizaje%0A2. Necesidades educativas especiales%0A3. Estrategias alternativas de acreditación%0A%0A💡 *Recordatorio importante:*%0AEl éxito educativo tiene múltiples caminos%0A¡Este es solo un punto en tu trayectoria!";
         }
 
-        texto = "%0A%0A🚀 *¿Necesitas ayuda?*%0AClases de apoyo escolar con descuentos:%0A- 20%% por compartir nuestro contenido%0A- 15%% adicional por referir amigos%0A📲 Contacto: wa.me/59171324941";
+        texto = "%0A%0A🚀 *¿Necesita ayuda escolar?*%0AOfrecemos clases de a medida según tu necesidad para estudiantes de primaria, secundaria y nivel universitario.%0A📚 Según tu necesidad, prácticos, exámenes, Exposiciones, o simplemente nivelación.%0A📲 Contáctenos: wa.me/59171324941";
+
     
     var url = "https://api.whatsapp.com/send?phone=591" + telefono + "&text=" + mensaje+ texto;
 
