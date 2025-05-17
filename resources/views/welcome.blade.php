@@ -13,9 +13,9 @@
     
     <div class="panel-lite">
     
-        <h1 class="title" style="text-align: center; background-color: white; z-index: 1000;">¿Aún Puedes Aprobar <a class="" id="loginBtn" onclick="window.location.href='/login';">?</a></h1>
+        <h1 class="title" style="text-align: center; background-color: white; z-index: 1000;">¿Primer Trimestre <a class="" id="loginBtn" onclick="window.location.href='/login';">?</a></h1>
 
-        <marquee><h2 class="title">Descubre Cuántos Puntos Necesitas para Pasar</h2></marquee>
+        <marquee><h2 class="title">Descubre Cuántos Puntos Necesitas en el segundo y tercer Trimestre</h2></marquee>
 
         <div class="thumbur">
             <div class="icon-lock"></div>
@@ -26,10 +26,10 @@
             <label class="form-label">Nota del primer trimestre</label>
         </div>
         
-        <div class="form-group">
+        {{-- <div class="form-group">
             <input class="form-control" type="number" name="trimestre2" id="trimestre2" value="{{ old('trimestre2', '') }}" min="0" required="required"/>
             <label class="form-label">Nota del segundo trimestre</label>
-        </div>
+        </div> --}}
         
         <div class="form-group">
             <select class="form-control" name="materia_id" id="materia_id" required>
@@ -42,7 +42,7 @@
         </div>
         
         <div class="form-group">
-            <input class="form-control" type="number" name="telefono" id="telefono" value="{{ old('telefono', '') }}" min="0" required="required"/>
+            <input class="form-control" type="number" name="telefono" id="telefono" value="{{ old('telefono', '71039910') }}" min="0" required="required"/>
             <label class="form-label">Teléfono</label>
         </div>
 

@@ -12,18 +12,10 @@ class NotaController extends Controller
     
     public function guardarNotas(GuardarNotaRequest $request)
     {
-
-        // $validatedData = $request->validate([
-        //     'trimestre1' => 'required|numeric|min:0|max:100', // Requiere que sea un número entre 0 y 100
-        //     'trimestre2' => 'required|numeric|min:0|max:100', // Requiere que sea un número entre 0 y 100
-        //     'materia_id' => 'required|exists:materias,id',    // Verifica que exista en la tabla 'materias'
-        //     'telefono' => 'required|numeric|digits_between:7,15', // Requiere que sea un número con entre 7 y 15 dígitos
-        // ]);
-        
         $nota=Nota::create([
             'trimestre1' => $request->trimestre1,
-            'trimestre2' => $request->trimestre2,
-            'trimestre3' => 153-$request->trimestre1-$request->trimestre2,
+            'trimestre2' => (153-$request->trimestre1)/2,
+            'trimestre3' => (153-$request->trimestre1)/2,
             'materia_id' => $request->materia_id,
             'telefono' => $request->telefono
         ]);
